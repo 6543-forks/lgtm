@@ -32,7 +32,7 @@ github.com/go-playground/universal-translator
 # github.com/go-playground/validator/v10 v10.4.1
 ## explicit
 github.com/go-playground/validator/v10
-# github.com/go-sql-driver/mysql v1.2.1-0.20151112163355-d512f204a577
+# github.com/go-sql-driver/mysql v1.5.0
 ## explicit
 github.com/go-sql-driver/mysql
 # github.com/golang/protobuf v1.4.3

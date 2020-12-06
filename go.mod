@@ -10,7 +10,7 @@ require (
 	github.com/gin-gonic/contrib v0.0.0-20201101042839-6a891bf89f19
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
-	github.com/go-sql-driver/mysql v1.2.1-0.20151112163355-d512f204a577
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/google/go-github v14.0.1-0.20171221173707-0c3b302de2a6+incompatible
 	github.com/google/go-querystring v0.0.0-20151028211038-2a60fc2ba6c1 // indirect
