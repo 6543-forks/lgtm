@@ -6,7 +6,7 @@ require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/dgrijalva/jwt-go v2.2.1-0.20150401180636-c48cfd5d9711+incompatible
 	github.com/elazarl/go-bindata-assetfs v1.0.1
-	github.com/franela/goblin v0.0.0-20150112000940-2042c4d610d2
+	github.com/franela/goblin v0.0.0-20201006155558-6240afcb2eb7
 	github.com/gin-gonic/contrib v0.0.0-20201101042839-6a891bf89f19
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
