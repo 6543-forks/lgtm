@@ -47,7 +47,7 @@ github.com/google/go-querystring/query
 # github.com/ianschenck/envflag v0.0.0-20140720210342-9111d830d133
 ## explicit
 github.com/ianschenck/envflag
-# github.com/joho/godotenv v0.0.0-20150907010228-4ed13390c0ac
+# github.com/joho/godotenv v1.3.0
 ## explicit
 github.com/joho/godotenv
 github.com/joho/godotenv/autoload
