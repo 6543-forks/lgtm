@@ -54,7 +54,7 @@ github.com/joho/godotenv/autoload
 # github.com/json-iterator/go v1.1.10
 ## explicit
 github.com/json-iterator/go
-# github.com/koding/cache v0.0.0-20140912085602-487fc0ca06f9
+# github.com/koding/cache v0.0.0-20161222233015-e8a81b0b3f20
 ## explicit
 github.com/koding/cache
 # github.com/leodido/go-urn v1.2.0
@@ -156,6 +156,13 @@ google.golang.org/protobuf/runtime/protoimpl
 # gopkg.in/gorp.v1 v1.7.1
 ## explicit
 gopkg.in/gorp.v1
+# gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
+## explicit
+gopkg.in/mgo.v2
+gopkg.in/mgo.v2/bson
+gopkg.in/mgo.v2/internal/json
+gopkg.in/mgo.v2/internal/sasl
+gopkg.in/mgo.v2/internal/scram
 # gopkg.in/yaml.v2 v2.4.0
 ## explicit
 gopkg.in/yaml.v2

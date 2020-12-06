@@ -17,7 +17,7 @@ require (
 	github.com/ianschenck/envflag v0.0.0-20140720210342-9111d830d133
 	github.com/joho/godotenv v1.3.0
 	github.com/json-iterator/go v1.1.10 // indirect
-	github.com/koding/cache v0.0.0-20140912085602-487fc0ca06f9
+	github.com/koding/cache v0.0.0-20161222233015-e8a81b0b3f20
 	github.com/lib/pq v0.0.0-20161103024354-d8eeeb8bae88
 	github.com/mattn/go-sqlite3 v0.0.0-20150427235825-542ae647f860
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
@@ -35,5 +35,6 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/gorp.v1 v1.7.1 // indirect
+	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
