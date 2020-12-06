@@ -1,9 +1,9 @@
 # github.com/BurntSushi/toml v0.3.1
 ## explicit
 github.com/BurntSushi/toml
-# github.com/Sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f
+# github.com/sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f
 ## explicit
-github.com/Sirupsen/logrus
+github.com/sirupsen/logrus
 # github.com/dgrijalva/jwt-go v2.2.1-0.20150401180636-c48cfd5d9711+incompatible
 ## explicit
 github.com/dgrijalva/jwt-go

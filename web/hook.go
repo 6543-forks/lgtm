@@ -9,7 +9,7 @@ import (
 	"github.com/go-gitea/lgtm/remote"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 

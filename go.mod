@@ -4,7 +4,6 @@ go 1.15
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/Sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f
 	github.com/dgrijalva/jwt-go v2.2.1-0.20150401180636-c48cfd5d9711+incompatible
 	github.com/elazarl/go-bindata-assetfs v0.0.0-20150414184409-bea323321994
 	github.com/franela/goblin v0.0.0-20150112000940-2042c4d610d2
@@ -22,11 +21,13 @@ require (
 	github.com/mattn/go-sqlite3 v0.0.0-20150427235825-542ae647f860
 	github.com/rubenv/sql-migrate v0.0.0-20150713140751-53184e1edfb4
 	github.com/russross/meddler v0.0.0-20150103201139-cd98050d9328
+	github.com/sirupsen/logrus v1.7.0
 	github.com/stretchr/objx v0.0.0-20140526180921-cbeaeb16a013 // indirect
-	github.com/stretchr/testify v0.0.0-20150504220033-73a8112e0560
+	github.com/stretchr/testify v1.2.2
 	github.com/ziutek/mymysql v1.5.4 // indirect
 	golang.org/x/net v0.0.0-20151128090656-62ac18b46160
 	golang.org/x/oauth2 v0.0.0-20151117210313-442624c9ec92
+	golang.org/x/sys v0.0.0-20201204225414-ed752295db88 // indirect
 	google.golang.org/appengine v0.0.0-20160914034556-78199dcb0669 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect

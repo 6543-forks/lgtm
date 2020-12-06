@@ -5,7 +5,7 @@ import (
 	"github.com/go-gitea/lgtm/model"
 	"github.com/go-gitea/lgtm/router/middleware/session"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 

@@ -7,7 +7,7 @@ import (
 	"github.com/go-gitea/lgtm/router/middleware/session"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 
