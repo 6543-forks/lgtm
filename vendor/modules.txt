@@ -59,10 +59,11 @@ github.com/json-iterator/go
 github.com/koding/cache
 # github.com/leodido/go-urn v1.2.0
 github.com/leodido/go-urn
-# github.com/lib/pq v0.0.0-20161103024354-d8eeeb8bae88
+# github.com/lib/pq v1.9.0
 ## explicit
 github.com/lib/pq
 github.com/lib/pq/oid
+github.com/lib/pq/scram
 # github.com/mattn/go-isatty v0.0.12
 github.com/mattn/go-isatty
 # github.com/mattn/go-sqlite3 v0.0.0-20150427235825-542ae647f860
