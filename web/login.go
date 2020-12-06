@@ -10,7 +10,7 @@ import (
 	"github.com/go-gitea/lgtm/shared/token"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 

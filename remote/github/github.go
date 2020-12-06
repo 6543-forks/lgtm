@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/go-gitea/lgtm/model"
 	"github.com/go-gitea/lgtm/shared/httputil"
 	"github.com/google/go-github/github"

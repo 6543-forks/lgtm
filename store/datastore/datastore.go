@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/go-gitea/lgtm/store"
 	"github.com/go-gitea/lgtm/store/migration"
 	"github.com/rubenv/sql-migrate"

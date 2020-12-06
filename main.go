@@ -7,7 +7,7 @@ import (
 	"github.com/go-gitea/lgtm/router"
 	"github.com/go-gitea/lgtm/router/middleware"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/gin-gonic/contrib/ginrus"
 	"github.com/ianschenck/envflag"
 	_ "github.com/joho/godotenv/autoload"

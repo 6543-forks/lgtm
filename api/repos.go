@@ -11,7 +11,7 @@ import (
 	"github.com/go-gitea/lgtm/shared/token"
 	"github.com/go-gitea/lgtm/store"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 

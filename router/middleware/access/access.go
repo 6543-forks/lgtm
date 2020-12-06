@@ -4,7 +4,7 @@ import (
 	"github.com/go-gitea/lgtm/cache"
 	"github.com/go-gitea/lgtm/router/middleware/session"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
 )
 
