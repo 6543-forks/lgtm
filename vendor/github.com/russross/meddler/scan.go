@@ -22,24 +22,28 @@ type Database struct {
 	UseReturningToGetID bool   // use PostgreSQL-style RETURNING "ID" instead of calling sql.Result.LastInsertID
 }
 
+// MySQL contains database specific options for executing queries in a MySQL database
 var MySQL = &Database{
 	Quote:               "`",
 	Placeholder:         "?",
 	UseReturningToGetID: false,
 }
 
+// PostgreSQL contains database specific options for executing queries in a PostgreSQL database
 var PostgreSQL = &Database{
 	Quote:               `"`,
 	Placeholder:         "$1",
 	UseReturningToGetID: true,
 }
 
+// SQLite contains database specific options for executing queries in a SQLite database
 var SQLite = &Database{
 	Quote:               `"`,
 	Placeholder:         "?",
 	UseReturningToGetID: false,
 }
 
+// Default contains the default database options (which defaults to MySQL)
 var Default = MySQL
 
 func (d *Database) quoted(s string) string {
@@ -114,6 +118,9 @@ func getFields(dstType reflect.Type) (*structData, error) {
 		// the tag can override the field name
 		if len(tag) > 0 && tag[0] != "" {
 			name = tag[0]
+		} else {
+			// use mapper func if field has no explicit tag
+			name = Mapper(f.Name)
 		}
 
 		// check for a meddler
@@ -186,7 +193,7 @@ func Columns(src interface{}, includePk bool) ([]string, error) {
 //   `column1`,`column2`,...
 // using Quote as the quote character.
 func (d *Database) ColumnsQuoted(src interface{}, includePk bool) (string, error) {
-	unquoted, err := Columns(src, includePk)
+	unquoted, err := d.Columns(src, includePk)
 	if err != nil {
 		return "", err
 	}
@@ -434,7 +441,7 @@ func Targets(dst interface{}, columns []string) ([]interface{}, error) {
 // by Targets.
 func (d *Database) WriteTargets(dst interface{}, columns []string, targets []interface{}) error {
 	if len(columns) != len(targets) {
-		return fmt.Errorf("meddler.WriteTargets: mismatch in number of columns (%d) and targets (%s)",
+		return fmt.Errorf("meddler.WriteTargets: mismatch in number of columns (%d) and targets (%d)",
 			len(columns), len(targets))
 	}
 
@@ -495,17 +502,14 @@ func Scan(rows *sql.Rows, dst interface{}) error {
 // It reads exactly one result row and closes rows when finished.
 // Returns sql.ErrNoRows if there is no result row.
 func (d *Database) ScanRow(rows *sql.Rows, dst interface{}) error {
-	// make sure we always close rows
+	// make sure we always close rows, even if there is a scan error
 	defer rows.Close()
 
 	if err := d.Scan(rows, dst); err != nil {
 		return err
 	}
-	if err := rows.Close(); err != nil {
-		return err
-	}
 
-	return nil
+	return rows.Close()
 }
 
 // ScanRow using the Default Database type

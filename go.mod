@@ -19,11 +19,11 @@ require (
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/koding/cache v0.0.0-20161222233015-e8a81b0b3f20
 	github.com/lib/pq v1.9.0
-	github.com/mattn/go-sqlite3 v0.0.0-20150427235825-542ae647f860
+	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/rubenv/sql-migrate v0.0.0-20150713140751-53184e1edfb4
-	github.com/russross/meddler v0.0.0-20150103201139-cd98050d9328
+	github.com/russross/meddler v1.0.0
 	github.com/sirupsen/logrus v1.7.0
 	github.com/stretchr/testify v1.4.0
 	github.com/ugorji/go v1.2.1 // indirect
