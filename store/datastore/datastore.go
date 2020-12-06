@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/sirupsen/logrus"
 	"github.com/go-gitea/lgtm/store"
 	"github.com/go-gitea/lgtm/store/migration"
 	"github.com/rubenv/sql-migrate"
 	"github.com/russross/meddler"
+	"github.com/sirupsen/logrus"
 
 	// Import the MySQL driver
 	_ "github.com/go-sql-driver/mysql"

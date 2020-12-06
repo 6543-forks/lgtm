@@ -10,8 +10,8 @@ import (
 	"github.com/go-gitea/lgtm/shared/token"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 )
 
 // Login attempts to authorize a user via GitHub oauth2. If the user does not

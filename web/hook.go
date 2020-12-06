@@ -9,8 +9,8 @@ import (
 	"github.com/go-gitea/lgtm/remote"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 )
 
 var (

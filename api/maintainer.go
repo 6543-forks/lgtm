@@ -7,8 +7,8 @@ import (
 	"github.com/go-gitea/lgtm/router/middleware/session"
 	"github.com/go-gitea/lgtm/store"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 )
 
 // GetMaintainer gets the MAINTAINER configuration file.

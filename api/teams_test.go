@@ -12,9 +12,9 @@ import (
 
 	cache "github.com/go-gitea/lgtm/cache/mock"
 
-	"github.com/sirupsen/logrus"
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"
+	"github.com/sirupsen/logrus"
 )
 
 func TestTeams(t *testing.T) {

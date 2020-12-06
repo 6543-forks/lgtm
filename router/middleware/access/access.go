@@ -4,8 +4,8 @@ import (
 	"github.com/go-gitea/lgtm/cache"
 	"github.com/go-gitea/lgtm/router/middleware/session"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/gin-gonic/gin"
+	log "github.com/sirupsen/logrus"
 )
 
 // RepoAdmin is a middleware to check if the current user is an admin.

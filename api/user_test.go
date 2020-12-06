@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sirupsen/logrus"
 	"github.com/go-gitea/lgtm/model"
+	"github.com/sirupsen/logrus"
 
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"
