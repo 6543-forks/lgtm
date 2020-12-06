@@ -3,7 +3,7 @@ module github.com/go-gitea/lgtm
 go 1.15
 
 require (
-	github.com/BurntSushi/toml v0.1.1-0.20150501104042-056c9bc7be71
+	github.com/BurntSushi/toml v0.3.1
 	github.com/Sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f
 	github.com/dgrijalva/jwt-go v2.2.1-0.20150401180636-c48cfd5d9711+incompatible
 	github.com/elazarl/go-bindata-assetfs v0.0.0-20150414184409-bea323321994

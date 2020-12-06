@@ -1,5 +1,7 @@
 github.com/BurntSushi/toml v0.1.1-0.20150501104042-056c9bc7be71 h1:KAQc1CTRbk1f17TCGJgSL5kOTzbT7luTSdD+O8FLUNg=
 github.com/BurntSushi/toml v0.1.1-0.20150501104042-056c9bc7be71/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/BurntSushi/toml v0.3.1 h1:WXkYYl6Yr3qBf1K79EBnL4mak0OimBfB0XUf9Vl28OQ=
+github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/Sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f h1:KayOYr2WCWZ+MZc/++3EQP7dieYjuMZSsupz2PSVzyw=
 github.com/Sirupsen/logrus v0.6.7-0.20150309155839-2cea0f0d141f/go.mod h1:rmk17hk6i8ZSAJkSDa7nOxamrG+SP4P0mm+DAvExv4U=
 github.com/dgrijalva/jwt-go v2.2.1-0.20150401180636-c48cfd5d9711+incompatible h1:VB+e14ByfqYy11hkJRzdl+dn9hK1rSB0tgpH4+hnk20=
